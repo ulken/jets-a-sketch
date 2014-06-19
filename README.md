@@ -1,4 +1,4 @@
 jets-a-sketch
 =============
 
-JS Implementation of Etch-A-Sketch for The Odin Project
+JavaScript Implementation of Etch-A-Sketch for [The Odin Project](http://theodinproject.com)
