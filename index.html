@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>JetS-A-Sketch</title>
+    <link rel="stylesheet" href="css/master.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jets-a-sketch.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <h1>JetS-A-Sketch</h1>
+
+    <fieldset class="controls">
+
+      <label for="grid-size">Size</label>
+      <input id="grid-size" name="grid-size" type="number" value="16" max="64">
+      |
+      <label for="grid-color">Color</label>
+      <input id="grid-color" name="grid-color" type="color">
+
+      <div class="right">
+        <button id="grid-clear" name="grid-clear">Clear</button>
+        |
+        <button id="grid-reset" name="grid-reset">Reset</button>
+      </div>
+
+    </fieldset>
+
+    <div class="grid-container"></div>
+  </body>
+</html>

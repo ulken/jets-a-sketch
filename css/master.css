@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Controls */
+
+label {
+  font-weight: bold;
+}
+
+fieldset input {
+  width: 45px;
+}
+
+.right {
+  float: right;
+}
+
+/* Grid */
+
+.grid-container {
+  height: 100%;
+  width: 100%;
+}
+
+.cell {
+  display: inline-block;
+  outline: silver solid 1px;
+}
